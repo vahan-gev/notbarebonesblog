@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #101010;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.swal-modal {
+  background-color: #101010;
+  border: 1px solid #27272a;
+  border-radius: 10px;
+}
+.swal-title {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.swal-text {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.swal-overlay {
+  background-color: rgba(39, 39, 42, 0.8);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-moz-selection {
+  color: white;
+  background: #27272a;
+}
+
+::selection {
+  color: white;
+  background: #27272a;
+}
+
+.swal-input {
+  background-color: #101010;
+  width: 100%;
+  border: 1px solid #27272a;
+  outline: none;
+  color: white;
+  padding: 10px;
+  text-indent: 5px;
+  font-family: 'Roboto';
+}
+
+.swal-load-button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: black;
+  border: 1px solid #27272a;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-family: 'Roboto';
+  margin-right: 5px;
+}
+
+.swal-load-button:hover {
+  background-color: #27272a;
+}
